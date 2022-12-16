@@ -37,6 +37,6 @@ it('#7 - Indicates failure when two strings is used instead of numbers', () => {
     assert.equal(operations.validateNumbers('salam', 'alaykoum'), false);
 });
 
-it('#9 - Successfully runs when two numbers are used', () => {
+it('#8 - Successfully runs when two numbers are used', () => {
     assert.equal(operations.validateNumbers(2022, 2023), true);
 });
