@@ -4,22 +4,33 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "coverage": "nyc npm run test"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hassanhaddane/b3-c3-dev-tu-haddane-hassan.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "Calculatrice",
+    "TU",
+    "Coverage",
+    "Report"
+  ],
+  "author": "Hassan HADDANE",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/rmess/Chai-example/issues"
   },
   "homepage": "https://github.com/rmess/Chai-example#readme",
   "dependencies": {
-    "chai": "^4.3.7",
-    "mocha": "^10.1.0",
     "save-dev": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "chai": "^4.3.7",
+    "istanbul": "^0.4.5",
+    "mocha": "^10.2.0",
+    "nyc": "^15.1.0"
   }
 }
