@@ -1,15 +1,10 @@
 
 
 _Name: HADDANE Hassan_
+_Name: EL HATRI Rayan-Saad
 
 _Class - Group : B3 - C3`_
 
-_mail : hassanhaddane33s@gmail.com_
-
-_mail 2 : hassan.haddane@epsi.fr_
-
-[LinkedIn
-](https://www.linkedin.com/in/hassanhaddane)
 
 
 **Projet : CALCULATOR (Wihout Graphic), TU & Coverage (Bonus) in Node.js using Mocha & Chai.**
