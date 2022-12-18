@@ -21,10 +21,17 @@ rl.question('Entrez le premier numéro: ', (x) => {
         rl.question(`
 Veuillez choisir parmi les options suivantes:
 
+// Fonctions de base (BDD)
 [1] Addition (+)
 [2] Soustraction (-)
 [3] multiplication (*)
 [4] Division (/)
+[5] Percent (%)
+
+// Fonctions scientifiques (TDD)
+[6] Carré ( )
+[7] Racine carrée ( )
+[8] Puissance de ( )
 
 Entrer votre choix: `, (choice) => {
             if (!operations.validateNumbers(x, y)) {
@@ -43,8 +50,20 @@ Entrer votre choix: `, (choice) => {
                     case '4':
                         console.log(`La division de ${x} et ${y} est ${operations.divide(x, y)}.`);
                         break;
+                    case '5':
+                        console.log(`La division de ${x} et ${y} est ${operations.percent(x, y)}.`);
+                        break;
+                    case '6':
+                        console.log(`La carré de ${x} et ${y} est ${operations.square(x, y)}.`);
+                        break;
+                    case '7':
+                        console.log(`La racine carrée de ${x} et ${y} est ${operations.squareroot(x, y)}.`);
+                        break;
+                    case '8':
+                        console.log(`La puissance de ${x} et ${y} est ${operations.power(x, y)}.`);
+                        break;
                     default:
-                        console.log('Veuillez redémarrer le programme et sélectionner un numéro entre 1 et 4.');
+                        console.log('Veuillez redémarrer le programme et sélectionner un numéro entre 1 et 8.');
                         break;
                 }
             }
