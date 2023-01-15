@@ -2,7 +2,6 @@
 
 _Name: HADDANE Hassan_
 
-_Name: EL HATRI Rayan-Saad_
 
 _Class - Group : B3 - C3`_
 
